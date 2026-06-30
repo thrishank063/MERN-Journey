@@ -1,0 +1,47 @@
+<!DocType html>
+<html lang="en">
+    <head>
+        <title>About Students</title>
+    </head>
+    <body>
+        <h1>h1 Student</h1>
+        <main>
+            <h2>h2 Student</h2>
+            <h3>h3 Student</h3>
+            <!-- this is comment syntax -->
+            <p>Click here to view more 
+            <a href="https://unsplash.com/s/photos/students" target = "_blank"> student Photos</a></p>
+            <a href="#"><img src="https://c8.alamy.com/comp/ME3CR2/confident-asian-handsome-student-holding-books-ME3CR2.jpg"  alt="A student image of B.Tech Graduate"></a>
+            <!-- in image an alt is used to describe the image when image fail to load -->
+            <div class="lists">
+                <h3>Student list</h3>
+                <p>Student <em>Names </em>: </p>
+                <ul>
+                    <li>Bablu</li>
+                    <li>Shiva</li>
+                    <li>Tony Stark</li>
+                </ul>
+                <img src="Tony stark.jpg" alt="Tony Stark">
+                <p>Student <strong>Branches</strong>:</p>
+                <ol>
+                    <li>Computer Science Engeneering Branch</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Data Science</li>
+                </ol>
+                <img src="artificial Inelligence.jpg" alt="artificial intellegence">
+            </div>
+            <form action="/submit-student-photo">
+                <label for="student"><input type="radio" name="student-employee" id="student" checked>student</label><br>
+                <label for="employee"><input type="radio" name="student-employee" id="employee">employee</label><br>
+                <label for="cse"><input type="checkbox" name="branch" id="cse" checked>CSE</label><br>
+                <label for="ai"><input type="checkbox" name="branch"id="ai">AI</label><br>
+                <label for="ds"><input type="checkbox" name="branch" id="ds">DS</label><br>
+                <input type="text" placeholder="student photo URL" required><br>
+                <button type="Submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p><small>No Copyright @2026 </small></p>
+        </footer>
+    </body>
+</html>
