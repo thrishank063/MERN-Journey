@@ -1,0 +1,60 @@
+h1:hover{
+    color:yellow
+}
+h2[class=subtitle]
+.title{
+    color:red;
+}
+.subtitle{
+    color:blue;
+}
+#contact-us{
+    color:green;
+}
+li:first-child{
+    color:rgb(53, 21, 198);
+}
+li:nth-child(2){
+    color:brown
+}
+li:last-child{
+    color:aquamarine;
+}
+#google-link:link{
+    color:blue;
+}
+#google-link:visited {
+    color:red;
+}
+h2 + a{
+    color:red
+}
+textarea ~ button {
+    color:purple;
+
+}
+
+ul > li:hover{
+    color: greenyellow;
+}
+ul li{
+    color:orange
+}
+
+.content-box{
+    width:150px;
+    background-color:aquamarine;
+    margin:15px;
+    padding:10px;
+    box-sizing: content-box;
+    border: 2px solid red;
+    
+}
+.border-box{
+    width:150px;
+    background-color:rgb(213, 22, 216);
+    margin:15px;
+    padding:  space between boxes ;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
