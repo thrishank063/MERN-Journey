@@ -1,42 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <title>About Me</title>
+
+<head>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <main>
-            <nav class="navbar">
-                <div class="logo">Thrishank</div>
-                <ul class="navbar-list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Thrishank</div>
+        <ul class="navbar-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
             <h1>GADDAM THRISHANK</h1>
             <h3>About Me</h3>
-            <p>I am a final-year B.Tech student with strong foundation in  <strong>HTML</strong> and <strong>CSS</strong></p>
-            <a  class="link" href="https://github.com" target="_blank">Visit my GitHub</a>
-            <p>Today i have completed html main concepts</p>
-            <ol>
-                <li>h1-h6</li>
-                <li>p- paragrah element</li>
-                <li>img- image element</li>
-                <li>a - anchor element</li>
-                <li>button-element</li>
-                <li>atributes</li>
-                <li>many more....</li>
-            </ol>
-            <form>
-                <h2>Contact Us</h2>
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter Your Name"><br>
-                <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Enter Your Email"><br>
-                <button>Submit </button>
-            </form>
-        </main>
-    </body>
+            <p>Hi, I'm Gaddam Thrishank 👋<br>
+
+                I'm a B.Tech graduate (2026) in Data Science from
+                Guru Nanak Institute of Technical Campus, Hyderabad.
+
+                I'm passionate about full-stack web development and
+                currently building my skills in the MERN Stack
+                (MongoDB, Express.js, React.js, Node.js).
+
+                I love turning ideas into real web applications
+                and I'm actively looking for opportunities as a
+                fresher MERN Stack Developer.</p>
+            <a href="https://github.com/thrishank063" target="_blank">Visit my GitHub</a>
+        </section>
+        <section id="aboutMe">
+            <div class="skills">
+                <h3>🛠️ Skills I'm Building</h3>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>Flexbox & CSS Grid</li>
+                    <li>JavaScript (learning)</li>
+                    <li>React.js (coming soon)</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <h1>My Projects</h1>
+            <div class="project-grid">
+                <div class="card">
+                    <h3>About Me Page</h3>
+                    <p>Built with HTML5 & CSS3</p>
+                    <a href="#">View Code</a>
+                </div>
+                <div class="card">
+                    <h3>Navbar Component</h3>
+                    <p>Built with Flexbox</p>
+                    <a href="#">View Code</a>
+                </div>
+                <div class="card">
+                    <h3>Project Grid</h3>
+                    <p>Built with CSS Grid</p>
+                    <a href="#">View Code</a>
+                </div>
+                <div class="card">
+                    <h3>Coming Soon</h3>
+                    <p>JavaScript Project</p>
+                    <a href="#">View Code</a>
+                </div>
+            </div>
+        </section>
+        <form id="contact">
+            <h1>Contact Us</h1>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name"><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter Your Email"><br>
+            <button>Submit </button>
+        </form>
+
+    </main>
+</body>
+
 </html>

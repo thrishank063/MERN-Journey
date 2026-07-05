@@ -1,0 +1,21 @@
+.projects-grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding:20px;
+}
+
+.card{
+    background-color: steelblue;
+    border: skyblue 1px solid;
+    color:white;
+    padding:20px;
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.1)
+}
+.card a{
+    text-decoration: none;
+}
+.card:hover{
+    transform:translateY(-5px);
+    transition:transform 0.3s
+}

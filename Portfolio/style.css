@@ -2,7 +2,7 @@ body{
     background-color: #a6a1a1;
     font-family:sans-serif;
     margin:0px;
-    padding:20px;
+    padding:0px;
 }
 .navbar{
     background-color: #367fc9;
@@ -32,6 +32,41 @@ body{
   color: #a5c03a;
   transition: color 0.3s;
 }
+main{
+    margin: 0 auto;
+    background-color: white;
+    padding:30px;
+    border-radius:10px;
+}
+
+.project-grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+
+}
+.card{
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    padding:20px;
+}
+.card a{
+    text-decoration: none;
+}
+.card:hover{
+    transform: translateY(-5px);
+    transition:transform 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 h1{
@@ -39,19 +74,11 @@ h1{
     font-size:36px;
     text-align: center;
 }
-main{
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: white;
-    padding:30px;
-    border-radius:10px;
-}
+
 .link:hover{
     color:greenyellow
 }
-/* .link:visited{
-    color:red;
-} */
+
 
 button{
     height:40px;
@@ -60,5 +87,14 @@ button{
     background-color:rgb(62, 148, 214);
     margin:15px;
     padding:0px;
-    border-radius: 20px;;
+    border-radius: 20px;
+    border:none;
+}
+
+input{
+    padding: 8px 12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    width:300px;
+    margin:5px 0;
 }
