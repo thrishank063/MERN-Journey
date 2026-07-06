@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day - 05</title>
+    <link rel="stylesheet" href="day05.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="day05.html">Projects</a>
+
+    </nav>
+    <div class="main-container">
+        <div class="container">
+        <h1 id="myH1">Hello</h1>
+        <h1 id="myP">Hello</h1>
+        <p id="uName"></p>
+        </div>
+        <div class = loginPage>
+            <h1 id="result">Welcome</h1>
+            <label for="UserName"> Username</label>
+            <input type="text" placeholder="User Name" id="UserName" required><br>
+            <button id="submitBtn">Submit</button>
+            
+        </div>
+        <div class="circumferenceOfCircle">
+            <h1>Circumference Calculator</h1>
+            <p>Enter the Radius to Calculate the Circumference</p>
+            <label for="radius">Radius</label>
+            <input type="number" placeholder="Enter Radius" id="radius" required><br>
+            <button onclick="calculate()">Calculate</button>
+            <p id="result1"></p>
+        </div>
+        <section class="counter" id="counter">
+            <h1>Counter</h1>
+            <h1 id="result2">0</h1>
+            <button onclick="decrement()">Decrement</button>
+            <button onclick="reset()">Reset</button>
+            <button onclick="increment()">Increment</button>
+        </section>
+    </div>
+    <script src="day05.js"></script>
+</body>
+</html>

@@ -57,11 +57,32 @@ main{
     transition:transform 0.3s;
 }
 
-
-
-
-
-
+.contactForm{
+    text-align: center;
+    border: 1px solid black;
+    margin:20px;
+    border-radius: 25px;;
+}
+.contactForm input{
+    padding: 8px 12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    width:300px;
+    margin:5px 0;
+}
+.contactForm button{
+    height:40px;
+    width:140px;
+    color:white;
+    background-color:rgb(74, 118, 151);
+    margin:15px;
+    padding:0px;
+    border-radius: 20px;
+    border:none;
+}
+.contactForm button:hover{
+    background-color: hsl(210, 86%, 68%);
+}
 
 
 
@@ -80,21 +101,4 @@ h1{
 }
 
 
-button{
-    height:40px;
-    width:140px;
-    color:white;
-    background-color:rgb(62, 148, 214);
-    margin:15px;
-    padding:0px;
-    border-radius: 20px;
-    border:none;
-}
 
-input{
-    padding: 8px 12px;
-    border:1px solid #ccc;
-    border-radius:6px;
-    width:300px;
-    margin:5px 0;
-}
