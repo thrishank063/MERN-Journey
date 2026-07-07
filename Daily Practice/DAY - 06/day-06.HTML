@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="day-06.CSS">
+        <title>day-06</title>
+    </head>
+    <body>
+        <section id="ageRestriction" class="ageRestriction"><div>
+            <h1>Site Restriction</h1>
+            <label for="ageInput">Enter Your Age</label><br>
+            <input type="number" placeholder="18" id="ageInput" required><br>
+            <button id="submitBtn1">Submit</button>
+            <p id="result1"></p>
+            </div>
+        </section>
+        <section id="paymentDetails" class="ageRestriction"><div>
+            <h1>Payment Details</h1>
+
+            <input type="checkbox" id="card">
+            <label for="card">Card</label><br>
+            
+            <input type="radio" id="visabtn" name="cardType">
+            <label for="visabtn">Visa Card</label><br>
+            <input type="radio" id="masterbtn" name="cardType">
+            <label for="masterbtn">Master Card</label><br>
+            <input type="radio" id="paypalbtn" name="cardType">
+            <label for="paypalbtn">PayPal Card</label><br>
+            <input type="radio" id="rupaybtn" name="cardType">
+            <label for="rupaybtn">Rupay Card</label><br>
+            <br><br>
+            <button id="submitBtn2">Submit</button>
+            <p id="result2"></p>
+            <p id="result3"></p>
+            </div>
+        </section>
+        <script src="day-06.js"></script>
+    </body>
+</html>

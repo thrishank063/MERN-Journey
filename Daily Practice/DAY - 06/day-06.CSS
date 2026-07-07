@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.ageRestriction{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgb(43, 43, 99),rgb(84, 84, 239));
+    color:rgb(245, 230, 230);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.ageRestriction div{
+    background-color: rgba(98, 98, 190, 0.751);
+    margin:20px;
+    padding:20px;
+    border:1px solid black;
+    text-align: center;
+    width:300px;
+    border-radius: 20px;
+}
+.ageRestriction input{
+    padding:10px;
+    margin:10px;
+    border:1px solid blanchedalmond;
+    height:10px;
+    border-radius:5px;
+}
+.ageRestriction button{
+    background-color: rgba(255, 228, 196, 0.808);
+    height:40px;
+    width:150px;
+    padding:10px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+}
+.ageRestriction button:hover{
+    background-color: rgba(255, 228, 196, 0.929);
+}
