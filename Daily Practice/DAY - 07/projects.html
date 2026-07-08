@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="projects.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+</head>
+<body>
+    <section class="loginPage">
+        <div>
+            <h1 style="text-align: center;">Login</h1>
+            <label for="userName">Username :</label>
+            <input type="text" id="userName" required><br><br>
+            <label for="password">Passsword :</label>
+            <input type="password" id="password" required><br><br>
+            <button id="loginbtn">Login</button>
+            <p id="result1" style="text-align: center;"> </p>
+        </div>        
+    </section>
+    <section class="loginPage">
+        <div>
+            <h1 style="text-align: center;">Number Guessing</h1>
+            <label for="guesedNum">Enter Number</label>
+            <input type="text" id="guesedNum"> <br><br>
+            <button id="submitbtn">submit</button>
+            <p id="result2" style="text-align: center;"> </p>
+        </div>        
+    </section>
+    <section class="loginPage">
+        <div>
+            <h1>Temperature Coverstion</h1>
+            <label for="tempValue">Enter Temperature</label>
+            <input type="text" id="tempValue"><br>
+            <br> 
+            <input type="radio" name="temperatureType" id="CelciusToFahrenheit">
+            <label for="CelciusToFahrenheit">Celcius - Fahrenheit</label>
+            <br>
+            <input type="radio" name="temperatureType" id="FahrenheitToCelcius">
+            <label for="FahrenheitToCelcius">Fahrenheit - Celcius</label>
+            <br><br>
+            <button id="calculateBtn">Calculate</button>
+            <h3 id="result3"></h3>
+        </div>
+    </section>
+    <script src="projects.js"></script>
+</body>
+</html>

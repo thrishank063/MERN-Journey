@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.loginPage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginPage div{
+    border:1px solid black;
+    padding:20px;
+    margin:20px;
+    border-radius: 25px;;
+}
+.loginPage button{
+    padding:5px 20px;
+    background-color: rgb(249, 249, 235);
+    border:1px solid black;
+}
+.logedinColor{
+    color:greenyellow;
+    font-size:15px;
+}

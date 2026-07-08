@@ -1,0 +1,47 @@
+.skillsSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputContainer{
+    border:1px solid black;
+    padding:20px;
+    margin:20px;
+    border-radius:15px;
+}
+.inputContainer h1{
+    text-align: center;   
+}
+.inputContainer input{
+    height:20px;
+    width:180px;
+    border: 1px solid rgb(41, 170, 193);
+    border-radius:5px;
+    padding:5px;
+}
+.inputContainer button{
+    background-color: rgb(0, 68, 108);
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+}
+.inputContainer button:hover{
+    background-color: rgb(22, 129, 191);;
+}
+
+/* -------------------------------------------------- */
+.skillsList li{
+    height:13px;
+    width:190px;
+    list-style-type: none;
+    border:1px solid rgb(0, 0, 0);
+    border-radius:8px;
+    padding:10px;
+    margin: 8px;px;
+    text-align: left;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
