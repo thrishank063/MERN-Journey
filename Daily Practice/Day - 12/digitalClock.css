@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.main-container{
+    background-image: linear-gradient(rgb(7, 62, 164), rgb(85, 114, 244));
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    backdrop-filter:blur;
+    background-color:hsla(0, 0%, 100%, 0.1);
+    transition-property: transparent;
+    font-size:5.5rem;
+    /* border:2px solid black; */
+    padding:20px;
+    border-radius:15px;
+    box-shadow: rgba(58, 58, 58, 0.8);
+}

@@ -1,0 +1,71 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.main-container{
+    height: 100vh;
+    background-image:linear-gradient(rgb(129, 8, 153),rgb(255, 94, 250));
+    background-size:cover;
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding:20px;
+    backdrop-filter: blur;
+    background-color: rgba(240, 248, 255, 0.212);
+    color:white;
+    border-radius:25px;
+    box-shadow: 5px hsl(0, 0%, 38%);
+}
+.card h1{
+    text-align: center;
+    font-size:3.3rem;
+}
+#display{
+    font-size:5.5rem;
+}
+.controls{
+    display:flex;
+    justify-content: space-around;
+    margin:10px;
+}
+.controls button{
+    padding:15px 40px;
+    font-size:20px;
+    border-radius: 18px;
+    border:none;
+    background-color:aquamarine;
+    color:white;
+    cursor: pointer;
+    transition:background-color 0.3s ease;
+}
+#startBtn{
+    background-color:hsl(120, 52%, 40%);
+}
+#startBtn:hover{
+    background-color:hsl(120, 52%, 49%);
+}
+#startBtn:active{
+    background-color:hsl(120, 100%, 60%);
+}
+#stopBtn{
+    background-color: hsl(0, 100%, 30%);
+}
+#stopBtn:hover{
+    background-color: hsl(0, 100%, 65%);
+}
+#stopBtn:active{
+    background-color: hsl(0, 100%, 50%);
+}
+
+#resetBtn{
+    background-color: hsl(193, 100%, 30%);
+}
+#resetBtn:hover{
+    background-color: hsl(193, 100%, 40%);
+}
+#resetBtn:active{
+    background-color: hsl(193, 100%, 50%);
+}
