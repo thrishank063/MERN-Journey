@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="day14.css">
+</head>
+
+<body>
+    <section class="welcomeSection" id="welcomeSection" style="display: none;">
+        <div class="welcomeBoard">
+            <div>
+                <h1>Welcome To NotePad Web</h1>
+                <button onclick="newNote()">New Note</button>
+            </div>
+        </div>
+    </section>
+    <section class="dashBoardSection" id="dashBoardSection">
+        <div class="dashBoard">
+            <aside class="asideContainer">
+                    <input type="text">
+                    <button>Search</button>
+            </aside>
+            <main class="mainContainer">
+                <input type="text" id="noteTitle" placeholder="Title"><br><br>
+                <textarea id="noteValue"></textarea>
+                <button id="saveNote">Save</button>
+            </main>
+            <navigation>
+                <button onclick="backToWelcome()">BACK </button>
+                Navigation
+            </navigation>
+        </div>
+    </section>
+    <script src="day14.js"></script>
+</body>
+
+</html>

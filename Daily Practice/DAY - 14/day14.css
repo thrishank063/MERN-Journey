@@ -1,0 +1,119 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.welcomeBoard {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.welcomeBoard h1 {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.welcomeBoard button {
+    background-color: #3471FF;
+    color: WHITE;
+    border: none;
+    align-self: stretch;
+    width: 380px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+
+.dashBoard {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+
+}
+
+/* -----------------------ASIDE-------------------------------------- */
+
+.asideContainer {
+    background-color: #272727;
+    padding:30px 10px;
+    
+}
+
+.asideContainer input {
+    height: 30px;
+    background-color: #333333;
+    border: none;
+    border-radius:8px;
+}
+
+.asideContainer button{
+    background-color:#3471FF;
+    color:white;
+    padding:8px 20px;
+    margin:20px;
+    border:none;
+    border-radius: 8px;;
+} 
+
+
+
+/* ------------------------------MAIN---------------------------------------- */
+.mainContainer {
+    background-color:#1E1E1E;
+}
+
+.mainContainer input{
+    margin:20px 5px;
+    height: 5rem;
+    min-width: 100%;
+    background-color:#1E1E1E;
+    border:none;
+    font-family: Roboto;
+    font-size: 25px;
+    color:white;
+    overflow-y: auto;
+}
+.mainContainer input:focus{
+    outline:none;
+}
+.mainContainer textarea{
+    margin:5px 8px;
+    min-height: 60%;
+    min-width: 100%;
+    background-color:#1E1E1E;
+    border:none;
+    font-family: Roboto;
+    font-size: 25px;
+    color:white;
+    overflow-y: auto;
+}
+.mainContainer textarea:focus{
+    outline:none;
+}
+.mainContainer button{
+    background-color:#3471FF;
+    color:white;
+    padding:13px 27px;
+    margin:20px;
+    border:none;
+    border-radius: 8px;;
+    margin:1rem;
+} 
+
+
+
+
+/* ------------------------NAVIGATION---------------------------------------------- */
+.dashBoard navigation {
+    background-color: #272727;
+    
+}
