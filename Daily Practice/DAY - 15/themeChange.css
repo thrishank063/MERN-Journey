@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --background-color:#f0f0f0;
+    --card-color:#ffffff;
+    --text-color: black;
+    --primary-color:black;
+    --border-color: black;
+}
+
+.darkmode {
+  --background-color: rgb(46, 22, 105);  /* dark overrides */
+  --card-color: #384ac2;
+    --text-color: rgb(191, 186, 186);
+    --border-color: white;
+    --primary-color:white;
+}
+/* ------------------------------------------------------------------------- */
+
+.main-container {
+    height: 100vh;
+    background-color: var(--background-color);
+    color:var(--text-color);
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.theme{
+    position:fixed;
+    top:20px;
+    right:20px;
+}
+
+.button{
+    background-color:var(--base-color);
+    border: 1px solid var(--border-color);
+    height: 60px;
+    width:60px;
+    border-radius:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.button svg{
+    fill:var(--primary-color)
+}
+.button svg:last-child{
+    display:none;
+}
+.darkmode button svg:first-child{
+    display: none;
+}
+.darkmode button svg:last-child{
+    display:block;
+}
+/* ---------------------------loginPage----------------------------------------------------------- */
+
+.loginPage{
+    background-color: var(--card-color);
+    padding:30px;
+    border-radius:20px;
+}
+
+.loginPage h1{
+    color:var(--text-color);
+    padding:0px, 20px;
+}
+
+.loginCredential input{
+    height: 30px;
+    width:180px;
+}
+
+
+#loginBtn{
+    padding:10px 20px;
+    margin:10px;
+}
