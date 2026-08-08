@@ -1,0 +1,30 @@
+.slider{
+    position:relative;
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+.slider img{
+    width:100%;
+    display:none;
+}
+.slider button{
+    font-size:3rem;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    background-color: hsla(0, 0%, 49%, 0);
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+.prev{
+    left:0px;
+}
+.next{
+    right:0px;
+}
+
+img.displaySlide{
+    display:block;
+}
